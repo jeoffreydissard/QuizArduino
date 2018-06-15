@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Quiz</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <script src="/socket.io/socket.io.js" type="text/javascript"></script>
+    </head>
+    <body>
+    <nav>
+        <div class="nav-wrapper green darken-2">
+            <a href="#" class="brand-logo center">Quiz Youtube</a>
+        </div>
+    </nav>
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m12 l10">
+                    <div class="video-container">
+                        <div id="video-placeholder"></div>
+                    </div>
+                </div>
+                <div id="lesP">
+                    <!--<p class="valign-wrapper col s4 m4 l2">1 : <i class="material-icons">sentiment_neutral</i></p>
+                    <p class="valign-wrapper col s4 m4 l2">2 : <i class="material-icons">sentiment_neutral</i></p>
+                    <p class="valign-wrapper col s4 m4 l2">3 : <i class="material-icons">sentiment_neutral</i></p>
+                    <p class="valign-wrapper col s4 m4 l2">4 : <i class="material-icons">sentiment_neutral</i></p>
+                    <p class="valign-wrapper col s4 m4 l2">5 : <i class="material-icons">sentiment_neutral</i></p>
+                    <p class="valign-wrapper col s4 m4 l2">6 : <i class="material-icons">sentiment_neutral</i></p>
+                    <p class="valign-wrapper col s4 m4 l2">7 : <i class="material-icons">sentiment_neutral</i></p>
+                    <p class="valign-wrapper col s4 m4 l2">8 : <i class="material-icons">sentiment_neutral</i></p>
+                    <p class="valign-wrapper col s4 m4 l2">9 : <i class="material-icons">sentiment_neutral</i></p>
+                    <p class="valign-wrapper col s4 m4 l2">10 : <i class="material-icons">sentiment_neutral</i></p>-->
+                </div>
+                    <!--<i class="material-icons icovert">mood</i> <i class="material-icons icorouge">mood_bad</i>-->
+
+            </div>
+            <h4 class="center-align">Que va-t-il se passer ?</h4>
+            <div class="row">
+                <a class="waves-effect waves-light btn col s12 m6 l6 BTN" id="BTN1">button</a>
+                <a class="waves-effect waves-light btn col s12 m6 l6 BTN" id="BTN2">button</a>
+                <a class="waves-effect waves-light btn col s12 m6 l6 BTN" id="BTN3">button</a>
+                <a class="waves-effect waves-light btn col s12 m6 l6 BTN" id="BTN4">button</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="script.js"></script>
+    </body>
+</html>
